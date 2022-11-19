@@ -43,7 +43,15 @@
     font-size: 0.75rem;
   }
 }
+@media (max-height: 820px) {
+  .app .hero {
+    height: 120vh;
+  }
+}
 @media (max-height: 600px) {
+  .app .hero {
+    height: 150vh;
+  }
   .app .hero-describe .hero-tag {
     font-size: 1rem;
   }

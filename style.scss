@@ -98,10 +98,19 @@
        
 
 }
+@media (max-height:820px){
+    .app{
+        .hero{
+            height: 120vh;
+        }
+    }
+}
 
 @media (max-height:600px){
     .app{
-       
+        .hero{
+            height: 150vh;
+        }
         .hero-describe{
             
             
